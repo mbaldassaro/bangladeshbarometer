@@ -1,0 +1,43 @@
+body {
+  overflow-y:scroll;
+}
+
+text {
+  font: 12px sans-serif;
+}
+
+#chart3 {
+  margin: 30px;
+  min-width: 100px;
+  min-height: 100px;
+/*
+  Minimum height and width is a good idea to prevent negative SVG dimensions...
+  For example width should be =< margin.left + margin.right + 1,
+  of course 1 pixel for the entire chart would not be very useful, BUT should not have errors
+*/
+}
+
+#chart3 svg {
+  height: 500px;
+  text-decoration-color: #efefef;
+    
+    
+/* 
+    style="fill: #000000; stroke: none; font-size: 48px;">
+    Fill only
+</text>
+<text x="20" y="100"
+      style="fill: none; stroke: #000000;  font-size: 48px;">
+    Stroke only
+</text>
+<text x="20" y="150"
+      style="fill: #999999; stroke: #000000;  font-size: 48px;">
+    Fill and stroke
+</text>        
+
+*/
+}
+
+p {
+    font: sans-serif;
+}
