@@ -1,4 +1,4 @@
-d3.json("Polling/mbmultiBar4.json", function(error, data) {
+d3.json("Polling/mbmultiBar6.json", function(error, data) {
      
 var chart;
     
@@ -9,7 +9,7 @@ nv.addGraph(function() {
       .margin({top: 30, right: 20, bottom: 50, left: 75})
       //.showValues(false)
       //.tooltips(true)
-      //.barColor(d3.scale.category10().range())
+      //.barColor(d3.scale.category20().range())
       .transitionDuration(500)
       //.stacked(true)
       //.showControls(false)
@@ -20,7 +20,7 @@ nv.addGraph(function() {
   //chart.xAxis
     //.tickFormat(d3.format('d'));
 
-  d3.select('#chart2 svg')
+  d3.select('#chart5 svg')
       .datum(data)
       .call(chart);
 

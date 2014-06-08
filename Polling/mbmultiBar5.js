@@ -17,8 +17,6 @@ nv.addGraph(function() {
 
   chart.yAxis 
     .tickFormat(d3.format('%'));
-  //chart.xAxis
-    //.tickFormat(d3.format('d'));
 
   d3.select('#chart4 svg')
       .datum(data)

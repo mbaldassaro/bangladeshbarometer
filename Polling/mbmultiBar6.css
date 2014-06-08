@@ -6,7 +6,7 @@ text {
   font: 12px sans-serif;
 }
 
-#chart4 {
+#chart5 {
   margin: 30px;
   min-width: 100px;
   min-height: 100px;
@@ -17,9 +17,9 @@ text {
 */
 }
 
-#chart4 svg {
+#chart5 svg {
   height: 500px;
-  width: 1050px; 
+  width: 1050px;   
 }
 
 p {

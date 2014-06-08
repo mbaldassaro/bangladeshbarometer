@@ -3,9 +3,9 @@
 <head>
    
 <meta charset="UTF-8">
-<meta name="description" content="Beautiful Responsive Animated OnePage Template" />
-<meta name="keywords" content="Zerif, responsive, html, template, creative"/>
-<meta name="author" content="Mizanur Rahman" />
+<meta name="description" content="Bangladesh Barometer" />
+<meta name="keywords" content="NVD3, D3, data, Bangladesh, polling"/>
+<meta name="author" content="Michael Baldassaro" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bangladesh Barometer</title>
 
@@ -38,7 +38,8 @@
 <link href="Polling/mbmultiBar4.css" rel="stylesheet" type="text/css"> <!--added-->    
 <link href="Polling/mbmultiBarChartHorizontal.css" rel="stylesheet" type="text/css"> <!--added-->    
 <link href="Polling/mbsimpleLine2.css" rel="stylesheet" type="text/css"> <!--added-->    
-<link href="Polling/mbmultiBar5.css" rel="stylesheet" type="text/css"> <!--added-->    
+<link href="Polling/mbmultiBar5.css" rel="stylesheet" type="text/css"> <!--added-->  
+<link href="Polling/mbmultiBar6.css" rel="stylesheet" type="text/css"> <!--added-->    
     
 <!-- WEBFONT -->
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic|Montserrat:700,400|Homemade+Apple' rel='stylesheet' type='text/css'>
@@ -51,7 +52,6 @@
 <!-- JQUERY -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 </head>
-
 
 <body>
 <!-- =========================
@@ -82,11 +82,11 @@
 			<nav class="navbar-collapse bs-navbar-collapse collapse" role="navigation" style="height: 1px;">
 			<ul class="nav navbar-nav navbar-right responsive-nav main-nav-list">
 				<li><a href="#home">Home</a></li>
-				<li><a href="#focus">Direction</a></li>
-				<li><a href="#works">Problems</a></li>
+				<li><a href="#focus">Right/Wrong Direction</a></li>
+				<li><a href="#works">Main Problems</a></li>
                 <li><a href="#aboutus">Party Support</a></li>
-				<li><a href="#team">Team</a></li>
-				<li><a href="#pricingtable">Pricing</a></li>
+				<li><a href="#team">Why Right?</a></li>
+				<li><a href="#pricingtable">Why Wrong?</a></li>
 				<li><a href="#features">Features</a></li>
 				<li><a href="#products">Products</a></li>
 				<li><a href="#testimonials">Testimonials</a></li>
@@ -97,18 +97,11 @@
 	</div>
 	<!-- / END TOP BAR -->
 	
-	<!-- BIG HEADING WITH CALL TO ACTION BUTTONS AND SHORT MESSAGES -->
 	<div class="container">
 		
 		<!-- HEADING -->
 		<h1 class="intro">Better Data. Better Decisions. Better Outcomes.  </h1>
 		
-		<!-- CALL TO ACTION BUTTONS -->
-<!--		<div class="buttons">
-			<a href="#" class="btn btn-primary custom-button red-btn">Our Works</a>
-			<a href="#" class="btn btn-primary custom-button green-btn">Our Packages</a>
-		</div> 
--->
 		
 		<!-- 3 SHORT MESSAGE ABOUT COMPANY -->
         <div class="row bottom-message-section">
@@ -128,7 +121,7 @@
 				</div>
 			</div>
 		</div>
-	</div> <!-- / END BIG HEADING WITH CALL TO ACTION BUTTONS AND SHORT MESSAGES  -->
+	</div> 
 	
 </header> <!-- / END HOME SECTION  -->
 
@@ -166,14 +159,9 @@
 	</div>
 	
 	</div>
-</div>
 	
 	<!-- PROJECT DETAILS WILL BE LOADED HERE -->
-	<div id="loaded-content"></div>
-
-    <a id="back-button" class="red-btn" href="#"><i class="icon-fontawesome-webfont-27"></i> Go Back</a>
-	
-</div> <!-- / END CONTAINER -->
+<!-- / END CONTAINER -->
 </section> <!-- / END WORKS SECTION -->
 
 
@@ -212,11 +200,11 @@
 	<div class="section-header">
 		
 		<!-- SECTION TITLE -->
-		<h2 class="dark-text">Why is Bangladesh Heading the Right Direction?</h2>
+		<h2 class="dark-text">Why is Bangladesh Heading in the Right Direction?</h2>
 		
 		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
 		<div id="chart4" class='with-3d-shadow with-transitions'>
-    <svg text style="fill: #909090;"></svg>
+    <svg></svg>
         </div>
 	</div>
 </div> <!-- / END CONTAINER -->
@@ -230,118 +218,19 @@
 <div class="container">
 	
 	<!-- SECTION HEADER -->
+	<div class="container">
+	
+	<!-- SECTION HEADER -->
 	<div class="section-header">
 		
 		<!-- SECTION TITLE -->
-		<h2 class="white-text">Packages</h2>
-		
-		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
-		<h6 class="white-text">
-			We have 4 friendly packages for you. Check all the packages and choose the right one for you. 
-		</h6>
+		<h2 class="white-text">Why is Bangladesh Heading in the Wrong Direction?</h2>
+        <div id="chart5" class='with-3d-shadow with-transitions'>
+    <svg text style="fill: #efefef;"></svg>
+        </div>
 	</div>
-	<!-- / END SECTION HEADER -->
-	
-	<!-- PACKAGES -->
-	<div class="row">
-		
-		<!-- FIRST PACKAGE -->
-		<div class="col-lg-3 col-sm-3">
-			<div class="package wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-				<div class="package-header green-bg">
-					<h5>Basic</h5>
-				</div>
-				<div class="price dark-bg">
-					<div class="price-container">
-					<h4><span class="dollar-sign">$</span>15</h4><span class="price-meta">
-					    / mo
-					</span>
-					</div>
-				</div>
-				<ul>
-					<li><i class="icon-check"></i>100GB Storage</li>
-					<li><i class="icon-check"></i>All Themes</li>
-					<li><i class="icon-cancel"></i>Access to Tutorials</li>
-					<li><i class="icon-cancel"></i>Auto Backup</li>
-					<li><i class="icon-cancel"></i>Extended Security</li>
-				</ul>
-				<a href="#" class="btn btn-primary custom-button green-btn">
-				Sign Up </a>
-			</div>
-		</div> <!-- / END FIRST PACKAGE -->
-		
-		<div class="col-lg-3 col-sm-3">
-			<div class="package wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-				<div class="package-header blue-bg">
-					<h5>Standard</h5>
-				</div>
-				<div class="price dark-bg">
-					<div class="price-container">
-					<h4><span class="dollar-sign">$</span>21 </h4>
-					<span class="price-meta">/ Mo</span>
-					</div>
-				</div>
-				<ul>
-					<li><i class="icon-check"></i>100GB Storage</li>
-					<li><i class="icon-check"></i>All Themes</li>
-					<li><i class="icon-cancel"></i>Access to Tutorials</li>
-					<li><i class="icon-cancel"></i>Auto Backup</li>
-					<li><i class="icon-cancel"></i>Extended Security</li>
-				</ul>
-				<a href="#" class="btn btn-primary custom-button blue-btn">
-				Sign Up </a>
-			</div>
-		</div>
-		
-		<div class="col-lg-3 col-sm-3">
-			<div class="best-value">
-				<div class="package wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-					<div class="package-header red-bg">
-						<h4>Premium</h4>
-						<div class="meta-text">
-							Best Value
-						</div>
-					</div>
-					<div class="price dark-bg">
-						<h4><span class="dollar-sign">$</span>53</h4>
-						<span class="price-meta">/ mo</span>
-					</div>
-					<ul>
-						<li><i class="icon-check"></i>100GB Storage</li>
-						<li><i class="icon-check"></i>All Themes</li>
-						<li><i class="icon-cancel"></i>Access to Tutorials</li>
-						<li><i class="icon-cancel"></i>Auto Backup</li>
-						<li><i class="icon-cancel"></i>Extended Security</li>
-					</ul>
-					<a href="#" class="btn btn-primary custom-button red-btn">
-				Sign Up </a>
-				</div>
-			</div>
-		</div>
-		
-		<div class="col-lg-3 col-sm-3">
-			<div class="package wow fadeInRight animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-				<div class="package-header yellow-bg">
-					<h5>Ultimate</h5>
-				</div>
-				<div class="price dark-bg">
-					<h4><span class="dollar-sign">$</span>99 </h4>
-					<span class="price-meta">/ mo</span>
-				</div>
-				<ul>
-					<li><i class="icon-check"></i>100GB Storage</li>
-					<li><i class="icon-check"></i>All Themes</li>
-					<li><i class="icon-cancel"></i>Access to Tutorials</li>
-					<li><i class="icon-cancel"></i>Auto Backup</li>
-					<li><i class="icon-cancel"></i>Extended Security</li>
-				</ul>
-				<a href="#" class="btn btn-primary custom-button yellow-btn">
-				Sign Up </a>
-			</div>
-		</div>
-	</div> <!-- / END PACKAGES -->
-	
-</div> <!--END CONTAINER  -->
+    </div>
+    </div>
 </section> <!-- END PACKAGES SECTION -->
 
 <!-- =========================
@@ -1122,11 +1011,11 @@
 <script src="NVD3/src/models/lineChart.js"></script>
 <script src="NVD3/src/models/scatter.js"></script>
 <script src="NVD3/stream_layers.js"></script>
-<script src="Polling/mbmultiBar4.js"></script> <!--added-->
 <script src="Polling/mbmultibar3.js"></script> <!--added-->
+<script src="Polling/mbmultiBar4.js"></script> <!--added-->
 <script src="Polling/mbsimpleLine2.js"></script> <!--added-->
 <script src="Polling/mbmultiBar5.js"></script> <!--added-->
-
+<script src="Polling/mbmultiBar6.js"></script> <!--added-->
 
 </body>
 </html>
