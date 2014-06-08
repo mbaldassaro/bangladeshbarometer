@@ -348,7 +348,7 @@ input:focus {
 
 /*** SECTION HEADERS ***/
 .focus,.works,.about-us,.features,.packages,.products,.testimonial,.contact-us {
-	padding-top: 50px;
+	padding-top: 20px;
 }
 .section-header {
 	text-align: center;
